@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "me.kall.farrrrrrrr.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "overwrites": {
+    "conformVisibility": false
+  },
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "MixinClientPacketListener",
+    "MixinLevelRenderer",
+    "MixinOptions"
+  ]
+}
